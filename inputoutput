@@ -1,0 +1,29 @@
+# Author:			Rose Wright
+# Assignment:		Input and Output
+# Date:				7/14/24
+# Description:		This program calculates the difference betweeen two ages by subtracting the smaller age from the larger age
+# Input:			age as an integer
+# Output:			number difference
+# Sources:			Sample A01 Sample Video
+#**********************************************************************
+def main():
+  olderAge = 0
+  youngerAge = 0
+  ageDiff = 0
+
+  print("Welcome!")
+  print("I can tell you the difference between two ages.")
+
+  # input ages
+  olderAge = int(input("Enter older age:"))
+  youngerAge = int(input("Enter younger age:"))
+
+  # computediff = older age - younger age
+  ageDiff = olderAge - youngerAge
+
+  # display output
+  print("The age difference is:", ageDiff)
+  print("Goodbye!")
+
+
+main()
